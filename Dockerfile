@@ -37,5 +37,3 @@ RUN groupadd --gid $UID dev && \
 
 USER dev:dev
 
-ARG SOURCE_DATE_EPOCH
-ENV SOURCE_DATE_EPOCH=${SOURCE_DATE_EPOCH:-1}
